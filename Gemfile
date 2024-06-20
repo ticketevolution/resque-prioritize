@@ -15,7 +15,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'resque-scheduler' # it is not neccessary plugin. But if it present - we should extend it.
-  gem 'rspec', '~> 3.0'
+  gem 'rspec', '~> 3.13'
   gem 'rspec-its' # its(:foo) syntax
   gem 'saharspec', '~> 0.0.7' # some syntactic sugar for RSpec
 end
